@@ -1,0 +1,138 @@
+<html>
+    <head>
+        <style>
+            nav{
+                background-color: rgb(250, 250, 250);
+              padding: 14px 16px;
+            }
+        .m{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .i{
+            height: 25px;
+            width: 100px;
+            background-color: rgb(134, 140, 94);
+            text-align: center;
+        }
+        .hover{
+            background-color: cyan;
+        }
+        p.star:hover{
+background-color:burlywood ;
+color:darkgrey;
+        }
+        .center{
+            text-align: center;
+            font-size: xx-large;
+            position: absolute;
+            top: 50%;
+            bottom: "60";
+        }
+        .container{
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row;
+            flex-wrap: wrap;
+            padding: 0 4px;
+        }
+        .container1{
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row;
+            flex-wrap: wrap;
+            padding: 0 20px;
+        }
+        @media  screen and (max-width:800px){
+          .container1{
+          flex: 50%;
+          max-width: 50%;
+          }
+        }
+        @media screen (max-width:500px) {
+            nav{
+                flex: 50%;
+                max-width: 50%;
+            }
+            }
+        
+        </style>
+    </head>
+    <body>
+        <nav>
+            <ul class="m" type="none">
+           <li class="i"><a href="#BR Architects"><b>BR</b> Architects</a></li>
+           <li class="i"> <a href="#Projects">Projects</a></li>          
+           <li class="i">  <a href="About" >About</a></li>
+            <li class="i">  <a href="#Contact">Contact</a></li></ul></nav><br>
+            <section id="BR Architects">
+                <div class=center style=" top:350px;left: 400px;color: white;"><B  style="background-color:black;padding: 5px;text-align: center;">BR </B>Architects</div>
+            <img src="https://www.w3schools.com/w3images/architect.jpg"width="100%">
+        </section>
+            <section id="Projects">
+                <h2>Projects</h2>
+                <div class="container">
+                    <img src="https://www.w3schools.com/w3images/house5.jpg" height="150"width="250">
+                     <img src="https://www.w3schools.com/w3images/house2.jpg" height="150"width="250">
+                     <img src="https://www.w3schools.com/w3images/house3.jpg" height="150"width="250">
+                     <img src="https://www.w3schools.com/w3images/house4.jpg" height="150"width="250" style="margin-bottom: 20px;"></div>
+                     <div class="container1">
+                     <img src="https://www.w3schools.com/w3images/house2.jpg" height="150"width="250">
+                     <img src="https://www.w3schools.com/w3images/house5.jpg" height="150"width="250">
+                     <img src="https://www.w3schools.com/w3images/house4.jpg" height="150"width="250">
+                     <img src="https://www.w3schools.com/w3images/house3.jpg" height="150"width="250" style="margin-bottom: 20px;">
+                </div>
+            </section>
+            <section id="About">
+                <h2>About</h2><hr>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><br>
+                <div style="float: left; ">
+                    <img src="https://www.w3schools.com/w3images/team2.jpg" height="150"width="250">
+                    <h2>John Doe</h2>
+                    <p style="color:dimgray;">CEO & Founder</p>
+                    <p style="width:250;">Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                    <p class=star style="background-color: beige;width:250; text-align: center;padding-top: 10px;padding-bottom: 10px;">Contact</p>
+                </div>
+                <div style="margin-left: 30px; display: inline-block;">
+                    <img src="https://www.w3schools.com/w3images/team1.jpg" height="150"width="250" >
+                    <h2>Jane Doe</h2>
+                    <p style="color:dimgray;">Architect</p>
+                    <p style="width:250;">Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                    <p class=star style="background-color: beige;width:250;text-align: center;padding-top: 10px;padding-bottom: 10px;">Contact</p>
+                </div>
+                <div style="margin-left: 30px; display: inline-block;">
+                    <img src="https://www.w3schools.com/w3images/team3.jpg" height="150"width="250" >
+                    <h2>Mike Ross</h2>
+                    <p style="color:dimgray;">Architect</p>
+                    <p style="width:250;">Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                    <p class=star style="background-color: beige;width:250; text-align: center;padding-top: 10px;padding-bottom: 10px;">Contact</p>
+                </div>
+                <div style="float:right; margin-right:90px; display: inline-block;">
+                    <img src="https://www.w3schools.com/w3images/team4.jpg" height="150"width="250" >
+                    <h2>Dan Star</h2>
+                    <p style="color:dimgray;">Architect</p>
+                    <p style="width:250;">Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                    <p class=star style="background-color: beige;width:250; text-align: center;padding-top: 10px;padding-bottom: 10px;">Contact</p>
+                    <br><br>
+                    </div>
+                    </section>
+                    <section id="Contact">
+                        <h2>Contact</h2><hr>
+                        <div>
+                            <p>Lets get in touch and talk about your next project.</p>
+                            <input type="text" name="text"placeholder="Name" style="width:350; padding-top: 10px;padding-bottom: 10px;"><br><br>
+                            <input type="Email" name="email"placeholder="Email" style="width:350; padding-top: 10px;padding-bottom: 10px;"><br><br>
+                            <input type="text" name="text"placeholder="Subject"style="width:350; padding-top: 10px;padding-bottom: 10px;"><br><br>
+                            <input type="text"name="text"placeholder="Comment" style="width:350; padding-top: 10px;padding-bottom: 10px;"><br>  <br>
+                            <input type="button" name="SEND MESSAGE" value="SEND MESSAGE" Style="background-color: black;color: white; width:150px; padding-top: 10px;padding-bottom: 10px;text-align: center;">  
+                            <br><br><br>
+                        </div>
+                    </section>
+                            <img src="https://www.w3schools.com/w3images/map.jpg">  <br><br>
+                            <footer style="background-color: black;padding-top: 20px;padding-bottom: 20px;">
+                                <p style="color: white;text-align: center;">Powered by BR Architects</p>
+                            </footer>          
+        </body>
+    </html>
